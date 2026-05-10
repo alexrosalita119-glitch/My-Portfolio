@@ -1,486 +1,393 @@
-.frame-4,
-.frame-4 * {
-  box-sizing: border-box;
-}
-.frame-4 {
-  height: 4441px;
-  position: relative;
-}
-.frame-6 {
-  display: flex;
-  flex-direction: column;
-  gap: 0px;
-  align-items: flex-start;
-  justify-content: flex-start;
-  width: 1436px;
-  position: absolute;
-  left: 0px;
-  top: 0px;
-}
-.home {
-  background: rgba(56, 4, 4, 0.94);
-  align-self: stretch;
-  flex-shrink: 0;
-  height: 873px;
-  position: relative;
-  overflow: hidden;
-}
-.airbrush-image-extender-1 {
-  width: 1718px;
-  height: 1029px;
-  position: absolute;
-  left: -141px;
-  top: -147px;
-  object-fit: cover;
-  aspect-ratio: 1718/1029;
-}
-.po {
-  color: rgba(56, 4, 4, 0.94);
-  text-align: center;
-  font-family: "DmSerifDisplay-Italic", sans-serif;
-  font-size: 128px;
-  font-weight: 400;
-  font-style: italic;
-  position: absolute;
-  left: 444px;
-  top: 248.56px;
-  width: 326px;
-  height: 195.02px;
-  transform-origin: 0 0;
-  transform: rotate(-0.977deg) scale(1, 1);
-}
-.lio {
-  color: #380404;
-  text-align: center;
-  font-family: "DmSerifDisplay-Italic", sans-serif;
-  font-size: 128px;
-  font-weight: 400;
-  font-style: italic;
-  position: absolute;
-  left: 727px;
-  top: 457.76px;
-  width: 220.64px;
-  height: 158.63px;
-  transform-origin: 0 0;
-  transform: rotate(-0.977deg) scale(1, 1);
-}
-.fo {
-  color: #380404;
-  text-align: center;
-  font-family: "DmSerifDisplay-Italic", sans-serif;
-  font-size: 128px;
-  font-weight: 400;
-  font-style: italic;
-  position: absolute;
-  left: 717px;
-  top: 332.76px;
-  width: 220.64px;
-  height: 65.35px;
-  transform-origin: 0 0;
-  transform: rotate(-0.977deg) scale(1, 1);
-}
-.rt {
-  color: rgba(56, 4, 4, 0.94);
-  text-align: center;
-  font-family: "DmSerifDisplay-Italic", sans-serif;
-  font-size: 128px;
-  font-weight: 400;
-  font-style: italic;
-  position: absolute;
-  left: 496px;
-  top: 336.76px;
-  width: 220.64px;
-  height: 65.35px;
-  transform-origin: 0 0;
-  transform: rotate(-0.977deg) scale(1, 1);
-}
-._33-a-3007-b-dc-41-4-eb-4-ba-3-b-ade-20-f-45753-e-1-1 {
-  width: 215px;
-  height: 623px;
-  position: absolute;
-  left: 607px;
-  top: 243px;
-  object-fit: cover;
-  aspect-ratio: 215/623;
-}
-.hi-i-m-alex {
-  color: #380404;
-  text-align: left;
-  font-family: "-", sans-serif;
-  font-size: 128px;
-  font-weight: 400;
-  position: absolute;
-  left: 302px;
-  top: 88px;
-  width: 943px;
-  height: 213px;
-}
-.hi-i-m-alex-span {
-  font-family: "B612Mono-Regular", sans-serif;
-}
-.hi-i-m-alex-span2 {
-  font-family: "BodoniModa-Regular", sans-serif;
-}
-.hi-i-m-alex-span3 {
-  font-family: "PinyonScript-Regular", sans-serif;
-}
-.frame-3 {
-  width: 112px;
-  height: 122px;
-  position: absolute;
-  left: 727px;
-  top: 207px;
-  overflow: hidden;
-}
-.introduction {
-  background: rgba(56, 4, 4, 0.94);
-  align-self: stretch;
-  flex-shrink: 0;
-  height: 892px;
-  position: relative;
-  overflow: hidden;
-}
-.texturelabs-paper-128-s-1 {
-  opacity: 0.22;
-  width: 1499px;
-  height: 1138px;
-  position: absolute;
-  left: -33px;
-  top: -23px;
-  object-fit: cover;
-  aspect-ratio: 1499/1138;
-}
-.introduction2 {
-  color: #ffffff;
-  text-align: left;
-  font-family: "AntonSc-Regular", sans-serif;
-  font-size: 230px;
-  letter-spacing: 0.05em;
-  font-weight: 400;
-  position: absolute;
-  left: 64px;
-  top: 552px;
-  width: 1614px;
-  height: 293px;
-}
-.i-am-a-bsit-student-who-is-confident-strong-minded-and-charismatic-known-for-my-humor-and-approachable-presence-i-carry-myself-with-confidence-while-staying-focused-and-determined-in-my-field {
-  text-align: left;
-  position: absolute;
-  left: 611px;
-  top: 117px;
-  width: 646px;
-  height: 435px;
-}
-.i-am-a-bsit-student-who-is-confident-strong-minded-and-charismatic-known-for-my-humor-and-approachable-presence-i-carry-myself-with-confidence-while-staying-focused-and-determined-in-my-field-span {
-  color: #000000;
-  font-family: "CrimsonText-Regular", sans-serif;
-  font-size: 24px;
-  font-weight: 400;
-}
-.i-am-a-bsit-student-who-is-confident-strong-minded-and-charismatic-known-for-my-humor-and-approachable-presence-i-carry-myself-with-confidence-while-staying-focused-and-determined-in-my-field-span2 {
-  color: #ffffff;
-  font-family: "Poppins-Regular", sans-serif;
-  font-size: 32px;
-  font-weight: 400;
-}
-._111111-1 {
-  width: 311px;
-  height: 836px;
-  position: absolute;
-  left: 103px;
-  top: 56px;
-  object-fit: cover;
-  aspect-ratio: 311/836;
-}
-.education {
-  background: #ffffff;
-  align-self: stretch;
-  flex-shrink: 0;
-  height: 892px;
-  position: relative;
-  overflow: hidden;
-}
-.vintage-paper-overlay-texture-nostalgic-charm-photo-1 {
-  opacity: 0.22;
-  width: 1040px;
-  height: 1470px;
-  position: absolute;
-  left: 1453px;
-  top: -34px;
-  transform-origin: 0 0;
-  transform: rotate(90deg) scale(1, 1);
-  object-fit: cover;
-  aspect-ratio: 1040/1470;
-}
-.education2 {
-  color: #380404;
-  text-align: left;
-  font-family: "AntonSc-Regular", sans-serif;
-  font-size: 180px;
-  letter-spacing: 0.05em;
-  font-weight: 400;
-  position: absolute;
-  left: 1183px;
-  top: 849px;
-  width: 807px;
-  height: 253px;
-  transform-origin: 0 0;
-  transform: rotate(-90deg) scale(1, 1);
-}
-.psb-elementary-school-2018-made-a-lot-of-long-term-friends-my-core-memory-is-when-i-purposely-startled-our-principal-for-fun-gained-compliments-for-being-neat-opol-national-secondary-technical-school-2022-consistent-with-honor-student-my-core-memory-is-when-my-friend-got-into-a-fight-and-i-was-gotten-involved-with-it-even-though-i-haven-t-done-anything-phinma-cagayan-de-oro-college-2024-took-up-gas-majoring-in-criminology-and-was-awarded-as-snappy-student-joined-a-lot-of-tournament-such-as-mobile-legends-in-panagtigi-intramurals-ballroom-dance-contest-and-was-awarded-a-leadership-awardee-opol-community-college-present-taking-up-bsit-and-now-in-the-second-year-had-an-experience-as-rifle-man-colors-in-rotc-joined-many-dance-contest-chants-and-ml-tournaments {
-  color: #380404;
-  text-align: left;
-  font-family: "-", sans-serif;
-  font-size: 28px;
-  font-weight: 400;
-  position: absolute;
-  left: 37px;
-  top: 22px;
-  width: 912px;
-  height: 781px;
-}
-.psb-elementary-school-2018-made-a-lot-of-long-term-friends-my-core-memory-is-when-i-purposely-startled-our-principal-for-fun-gained-compliments-for-being-neat-opol-national-secondary-technical-school-2022-consistent-with-honor-student-my-core-memory-is-when-my-friend-got-into-a-fight-and-i-was-gotten-involved-with-it-even-though-i-haven-t-done-anything-phinma-cagayan-de-oro-college-2024-took-up-gas-majoring-in-criminology-and-was-awarded-as-snappy-student-joined-a-lot-of-tournament-such-as-mobile-legends-in-panagtigi-intramurals-ballroom-dance-contest-and-was-awarded-a-leadership-awardee-opol-community-college-present-taking-up-bsit-and-now-in-the-second-year-had-an-experience-as-rifle-man-colors-in-rotc-joined-many-dance-contest-chants-and-ml-tournaments-span {
-  font-family: "Poppins-ExtraBold", sans-serif;
-  font-weight: 800;
-}
-.psb-elementary-school-2018-made-a-lot-of-long-term-friends-my-core-memory-is-when-i-purposely-startled-our-principal-for-fun-gained-compliments-for-being-neat-opol-national-secondary-technical-school-2022-consistent-with-honor-student-my-core-memory-is-when-my-friend-got-into-a-fight-and-i-was-gotten-involved-with-it-even-though-i-haven-t-done-anything-phinma-cagayan-de-oro-college-2024-took-up-gas-majoring-in-criminology-and-was-awarded-as-snappy-student-joined-a-lot-of-tournament-such-as-mobile-legends-in-panagtigi-intramurals-ballroom-dance-contest-and-was-awarded-a-leadership-awardee-opol-community-college-present-taking-up-bsit-and-now-in-the-second-year-had-an-experience-as-rifle-man-colors-in-rotc-joined-many-dance-contest-chants-and-ml-tournaments-span2 {
-  font-family: "Poppins-Regular", sans-serif;
-}
-.psb-elementary-school-2018-made-a-lot-of-long-term-friends-my-core-memory-is-when-i-purposely-startled-our-principal-for-fun-gained-compliments-for-being-neat-opol-national-secondary-technical-school-2022-consistent-with-honor-student-my-core-memory-is-when-my-friend-got-into-a-fight-and-i-was-gotten-involved-with-it-even-though-i-haven-t-done-anything-phinma-cagayan-de-oro-college-2024-took-up-gas-majoring-in-criminology-and-was-awarded-as-snappy-student-joined-a-lot-of-tournament-such-as-mobile-legends-in-panagtigi-intramurals-ballroom-dance-contest-and-was-awarded-a-leadership-awardee-opol-community-college-present-taking-up-bsit-and-now-in-the-second-year-had-an-experience-as-rifle-man-colors-in-rotc-joined-many-dance-contest-chants-and-ml-tournaments-span3 {
-  font-family: "Poppins-Black", sans-serif;
-  font-weight: 900;
-}
-.fi-1 {
-  width: 342px;
-  height: 921px;
-  position: absolute;
-  left: 928px;
-  top: 12px;
-  object-fit: cover;
-  aspect-ratio: 342/921;
-}
-.hobbies {
-  background: rgba(56, 4, 4, 0.94);
-  align-self: stretch;
-  flex-shrink: 0;
-  height: 892px;
-  position: relative;
-  overflow: hidden;
-}
-.texturelabs-paper-128-s-2 {
-  opacity: 0.22;
-  width: 1515px;
-  height: 1150px;
-  position: absolute;
-  left: -28px;
-  top: -209px;
-  object-fit: cover;
-  aspect-ratio: 1515/1150;
-}
-.hobbies2 {
-  color: #ffffff;
-  text-align: left;
-  font-family: "AntonSc-Regular", sans-serif;
-  font-size: 300px;
-  letter-spacing: 0.05em;
-  font-weight: 400;
-  position: absolute;
-  left: 324px;
-  top: 446px;
-  width: 1127px;
-  height: 381px;
-}
-.untitled-1 {
-  width: 400px;
-  height: 739px;
-  position: absolute;
-  left: 838px;
-  top: 218px;
-  object-fit: cover;
-  aspect-ratio: 400/739;
-}
-.online-games-nature-trips-taking-random-videos-dancing-singing {
-  color: #ffffff;
-  text-align: left;
-  font-family: "Poppins-ExtraBold", sans-serif;
-  font-size: 40px;
-  font-weight: 800;
-  position: absolute;
-  left: 149px;
-  top: 24px;
-  width: 556px;
-  height: 422px;
-}
-.contact {
-  background: #ffffff;
-  align-self: stretch;
-  flex-shrink: 0;
-  height: 892px;
-  position: relative;
-  overflow: hidden;
-}
-.vintage-paper-overlay-texture-nostalgic-charm-photo-2 {
-  opacity: 0.14;
-  width: 1068px;
-  height: 1510px;
-  position: absolute;
-  left: 1466px;
-  top: -41px;
-  transform-origin: 0 0;
-  transform: rotate(90deg) scale(1, 1);
-  object-fit: cover;
-  aspect-ratio: 1068/1510;
-}
-.email-address-alexrosalita-gmail-com-phone-number-639-285-487-065 {
-  color: #380404;
-  text-align: left;
-  font-family: "-", sans-serif;
-  font-size: 28px;
-  font-weight: 400;
-  position: absolute;
-  left: 664px;
-  top: 555px;
-  width: 591px;
-  height: 298px;
-}
-.email-address-alexrosalita-gmail-com-phone-number-639-285-487-065-span {
-  font-family: "Poppins-ExtraBold", sans-serif;
-  font-weight: 800;
-}
-.email-address-alexrosalita-gmail-com-phone-number-639-285-487-065-span2 {
-  font-family: "Poppins-Regular", sans-serif;
-}
-.facebook-alex-rosalita-jr-instagram-rosaaaliittaaa {
-  color: #380404;
-  text-align: left;
-  font-family: "-", sans-serif;
-  font-size: 28px;
-  font-weight: 400;
-  position: absolute;
-  left: 1071px;
-  top: 555px;
-  width: 591px;
-  height: 298px;
-}
-.facebook-alex-rosalita-jr-instagram-rosaaaliittaaa-span {
-  font-family: "Poppins-ExtraBold", sans-serif;
-  font-weight: 800;
-}
-.facebook-alex-rosalita-jr-instagram-rosaaaliittaaa-span2 {
-  font-family: "Poppins-Regular", sans-serif;
-}
-.contact-me {
-  color: #380404;
-  text-align: left;
-  font-family: "AntonSc-Regular", sans-serif;
-  font-size: 230px;
-  letter-spacing: 0.05em;
-  font-weight: 400;
-  position: absolute;
-  left: 207px;
-  top: -41px;
-  width: 1191px;
-  height: 318px;
-}
-.untitled-2-1 {
-  width: 615px;
-  height: 876px;
-  position: absolute;
-  left: -271px;
-  top: 272.3px;
-  transform-origin: 0 0;
-  transform: rotate(-23deg) scale(1, 1);
-  object-fit: cover;
-  aspect-ratio: 615/876;
-}
-.frame-7 {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  align-items: flex-start;
-  justify-content: flex-start;
-  width: 1442px;
-  position: fixed;
-  left: -6px;
-  top: 0px;
-}
-.frame-5 {
-  align-self: stretch;
-  flex-shrink: 0;
-  height: 61px;
-  position: relative;
-}
-.frame-2 {
-  background: #380404;
-  width: 1442px;
-  height: 49px;
-  position: absolute;
-  left: 0px;
-  top: 0px;
-  overflow: hidden;
-}
-.home2 {
-  color: #ffffff;
-  text-align: center;
-  font-family: "YsabeauOffice-ExtraBoldItalic", sans-serif;
-  font-size: 32px;
-  font-weight: 800;
-  font-style: italic;
-  position: absolute;
-  left: 19px;
-  top: 6px;
-  width: 124px;
-  height: 42px;
-}
-.introduction3 {
-  color: #f5f5f5;
-  text-align: center;
-  font-family: "YsabeauOffice-ExtraBoldItalic", sans-serif;
-  font-size: 32px;
-  font-weight: 800;
-  font-style: italic;
-  position: absolute;
-  left: 187px;
-  top: 5px;
-  width: 371px;
-  height: 43px;
-}
-.education3 {
-  color: #f5f5f5;
-  text-align: center;
-  font-family: "YsabeauOffice-ExtraBoldItalic", sans-serif;
-  font-size: 32px;
-  font-weight: 800;
-  font-style: italic;
-  position: absolute;
-  left: 522px;
-  top: 6px;
-  width: 371px;
-  height: 43px;
-}
-.hobbies3 {
-  color: #f5f5f5;
-  text-align: center;
-  font-family: "YsabeauOffice-ExtraBoldItalic", sans-serif;
-  font-size: 32px;
-  font-weight: 800;
-  font-style: italic;
-  position: absolute;
-  left: 918px;
-  top: 5px;
-  width: 170px;
-  height: 44px;
-}
-.contact2 {
-  color: #f5f5f5;
-  text-align: center;
-  font-family: "YsabeauOffice-ExtraBoldItalic", sans-serif;
-  font-size: 32px;
-  font-weight: 800;
-  font-style: italic;
-  position: absolute;
-  left: 1223px;
-  top: 6px;
-  width: 170px;
-  height: 43px;
-}
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --maroon: #380404;
+      --maroonbg: rgba(56,4,4,0.94);
+      --white: #fff;
+      --nav-h: 54px;
+    }
+
+    html { scroll-behavior: smooth; }
+    body { font-family: 'Poppins', sans-serif; background: var(--maroon); overflow-x: hidden; }
+
+    /* ══════════════ NAV ══════════════ */
+    nav {
+      position: fixed;
+      top: 0; left: 0; right: 0;
+      height: var(--nav-h);
+      background: var(--maroon);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: clamp(20px, 5vw, 90px);
+      z-index: 1000;
+      box-shadow: 0 2px 20px rgba(0,0,0,0.5);
+    }
+    nav a {
+      color: var(--white);
+      text-decoration: none;
+      font-weight: 800;
+      font-style: italic;
+      font-size: clamp(12px, 1.5vw, 20px);
+      letter-spacing: 0.06em;
+      transition: opacity .2s;
+    }
+    nav a:hover { opacity: 0.6; }
+
+    /* ══════════════ HOME ══════════════
+       Full-screen background photo (outdoor/mall photo = airbrush-image-extender)
+       with "HI, I'm ALEX" and "Portfolio" text overlaid
+    ════════════════════════════════════ */
+    #home {
+      position: relative;
+      width: 100%;
+      height: 100vh;
+      min-height: 500px;
+      overflow: hidden;
+    }
+
+    /* The outdoor/background photo fills the entire section */
+    .home-bg {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center center;
+    }
+
+    /* Dark gradient overlay so text is readable */
+    .home-overlay {
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(
+        135deg,
+        rgba(56,4,4,0.72) 0%,
+        rgba(56,4,4,0.35) 50%,
+        rgba(0,0,0,0.2) 100%
+      );
+    }
+
+    /* Text block positioned top-left like the Figma */
+    .home-text {
+      position: absolute;
+      top: clamp(70px, 12vh, 130px);
+      left: clamp(24px, 6vw, 90px);
+      z-index: 2;
+    }
+    .home-hi {
+      font-size: clamp(48px, 9vw, 130px);
+      font-weight: 900;
+      color: var(--white);
+      line-height: 1;
+      text-shadow: 2px 4px 24px rgba(0,0,0,0.6);
+      white-space: nowrap;
+    }
+    .home-hi .cursive {
+      font-family: 'Pinyon Script', cursive;
+      font-weight: 400;
+      font-size: 1.1em;
+    }
+    .home-portfolio {
+      font-family: 'DM Serif Display', serif;
+      font-style: italic;
+      font-size: clamp(52px, 10vw, 140px);
+      color: rgba(255,255,255,0.82);
+      line-height: 0.92;
+      text-shadow: 2px 4px 24px rgba(0,0,0,0.5);
+      margin-top: 4px;
+    }
+
+    /* ══════════════ INTRODUCTION ══════════════
+       Dark maroon bg. Photo on left (bottom-anchored, overflows top).
+       Text block on right. "INTRODUCTION" big label at the very bottom.
+    ════════════════════════════════════════════ */
+    #introduction {
+      position: relative;
+      width: 100%;
+      background: var(--maroonbg);
+      /* Enough height to fit photo + text + big label */
+      min-height: 100vh;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+    }
+
+    /* Top part: photo left + text right */
+    .intro-top {
+      flex: 1;
+      display: flex;
+      align-items: flex-end; /* photo sits at bottom of this area */
+      gap: 0;
+      padding: clamp(40px, 6vh, 80px) clamp(24px, 6vw, 80px) 0;
+      min-height: 0;
+    }
+
+    /* The cutout photo of Alex in white shirt */
+    .intro-photo {
+      width: clamp(200px, 26vw, 380px);
+      object-fit: contain;
+      object-position: bottom;
+      flex-shrink: 0;
+      align-self: flex-end;
+      /* Slight upward shift so it overlaps the label below */
+      margin-bottom: -15px;
+      position: relative;
+      z-index: 2;
+      filter: drop-shadow(0 -4px 30px rgba(0,0,0,0.4));
+    }
+
+    /* Text content beside the photo */
+    .intro-body {
+      flex: 1;
+      min-width: 220px;
+      padding: clamp(20px, 4vw, 60px) clamp(20px, 3vw, 50px);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-self: center;
+    }
+    .intro-body p {
+      font-size: clamp(15px, 1.8vw, 22px);
+      font-weight: 400;
+      color: rgba(255,255,255,0.92);
+      line-height: 1.85;
+    }
+    .intro-body p + p { margin-top: 20px; }
+
+    /* Big "INTRODUCTION" label at the bottom */
+    .intro-label {
+      font-family: 'Anton SC', sans-serif;
+      font-size: 220px;
+      letter-spacing: 0.04em;
+      color: var(--white);
+      line-height: 1;
+      padding: 0 clamp(16px, 4vw, 60px);
+      padding-bottom: clamp(12px, 2vw, 28px);
+      position: relative;
+      z-index: 1;
+    }
+
+    /* ══════════════ EDUCATION ══════════════ */
+    #education {
+      position: relative;
+      background: var(--white);
+      min-height: 100vh;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .edu-top {
+      flex: 1;
+      display: flex;
+      align-items: flex-end;
+      padding: clamp(40px, 6vh, 80px) clamp(24px, 6vw, 80px) 0;
+      gap: clamp(24px, 4vw, 60px);
+    }
+
+    .edu-entries {
+      flex: 1;
+      min-width: 220px;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      padding-bottom: 40px;
+      align-self: center;
+    }
+    .edu-entry h3 {
+      font-size: clamp(13px, 1.4vw, 17px);
+      font-weight: 900;
+      color: var(--maroon);
+      text-transform: uppercase;
+      letter-spacing: 0.03em;
+      margin-bottom: 4px;
+    }
+    .edu-entry p {
+      font-size: clamp(12px, 1.3vw, 15px);
+      color: var(--maroon);
+      line-height: 1.7;
+    }
+
+    /* Photo on the right, anchored to bottom */
+    .edu-photo {
+      width: clamp(160px, 20vw, 280px);
+      object-fit: contain;
+      object-position: bottom;
+      flex-shrink: 0;
+      align-self: flex-end;
+      margin-bottom: -40px;
+      position: relative;
+      z-index: 2;
+      filter: drop-shadow(0 0 20px rgba(56,4,4,0.15));
+    }
+
+    .edu-label {
+      font-family: 'Anton SC', sans-serif;
+      font-size: 290px;
+      letter-spacing: 0.04em;
+      color: var(--maroon);
+      line-height: 1;
+      padding: 0 clamp(16px, 4vw, 60px) clamp(12px, 2vw, 28px);
+      position: relative;
+      z-index: 1;
+    }
+
+    /* ══════════════ HOBBIES ══════════════ */
+    #hobbies {
+      position: relative;
+      background: var(--maroonbg);
+      min-height: 100vh;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .hobbies-top {
+      flex: 1;
+      display: flex;
+      align-items: flex-end;
+      padding: clamp(40px, 6vh, 80px) clamp(24px, 6vw, 80px) 0;
+      gap: clamp(24px, 4vw, 60px);
+    }
+
+    .hobbies-list-wrap {
+      flex: 1;
+      min-width: 220px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding-bottom: 40px;
+      align-self: center;
+    }
+    .hobbies-list {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    .hobbies-list li {
+      font-size: clamp(20px, 2.8vw, 36px);
+      font-weight: 800;
+      color: var(--white);
+      display: flex;
+      align-items: center;
+      gap: 14px;
+    }
+    .hobbies-list li::before {
+      content: '▸';
+      color: rgba(255,255,255,0.35);
+      font-size: 0.7em;
+    }
+
+    .hobbies-photo {
+      width: clamp(180px, 22vw, 320px);
+      object-fit: contain;
+      object-position: bottom;
+      flex-shrink: 0;
+      align-self: flex-end;
+      margin-bottom: -200px;
+      position: relative;
+      z-index: 2;
+      filter: drop-shadow(0 0 28px rgba(0,0,0,0.5));
+    }
+
+    .hobbies-label {
+      font-family: 'Anton SC', sans-serif;
+      font-size: 300px;
+      margin-left: auto;
+      letter-spacing: 0.04em;
+      color: var(--white);
+      line-height: 1;
+      padding: 0 clamp(16px, 4vw, 60px) clamp(12px, 2vw, 28px);
+      position: relative;
+      z-index: 1;
+    }
+
+    /* ══════════════ CONTACT ══════════════ */
+    #contact {
+      position: relative;
+      background: var(--white);
+      min-height: 100vh;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .contact-top {
+      flex: 1;
+      display: flex;
+      align-items: flex-end;
+      padding: clamp(40px, 6vh, 80px) clamp(24px, 6vw, 80px) 0;
+      gap: clamp(24px, 4vw, 60px);
+    }
+
+    /* Contact photo on the left */
+    .contact-photo {
+      width: clamp(180px, 22vw, 320px);
+      object-fit: contain;
+      object-position: bottom;
+      flex-shrink: 0;
+      align-self: flex-end;
+      margin-bottom: -40px;
+      position: relative;
+      z-index: 2;
+      filter: drop-shadow(0 0 20px rgba(0,0,0,0.2));
+    }
+
+    .contact-info {
+      flex: 1;
+      min-width: 220px;
+      align-self: center;
+      padding-bottom: 40px;
+    }
+    .contact-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 24px 40px;
+    }
+    .contact-item h4 {
+      font-size: clamp(12px, 1.3vw, 16px);
+      font-weight: 900;
+      color: var(--maroon);
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      margin-bottom: 5px;
+    }
+    .contact-item p {
+      font-size: clamp(13px, 1.4vw, 16px);
+      color: var(--maroon);
+      font-weight: 400;
+    }
+
+    .contact-label {
+      font-family: 'Anton SC', sans-serif;
+      font-size: 230px;
+      letter-spacing: 0.04em;
+      color: var(--maroon);
+      line-height: 1;
+      padding: 0 clamp(16px, 4vw, 60px) clamp(12px, 2vw, 28px);
+      position: relative;
+      z-index: 1;
+      margin-top: auto;
+    }
+
+    /* ══════════════ RESPONSIVE ══════════════ */
+    @media (max-width: 600px) {
+      .intro-top, .edu-top, .hobbies-top, .contact-top {
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 0;
+      }
+      .intro-photo, .edu-photo, .hobbies-photo, .contact-photo {
+        width: clamp(160px, 55vw, 260px);
+        margin-bottom: -20px;
+        align-self: center;
+      }
+      .intro-body, .edu-entries, .hobbies-list-wrap, .contact-info {
+        padding: 20px 20px 0;
+        text-align: center;
+      }
+      .hobbies-list { align-items: flex-start; width: 100%; }
+      .contact-grid { text-align: left; }
+    }
