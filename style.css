@@ -1,393 +1,451 @@
-    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
-    :root {
-      --maroon: #380404;
-      --maroonbg: rgba(56,4,4,0.94);
-      --white: #fff;
-      --nav-h: 54px;
-    }
+:root {
+  --maroon: #380404;
+  --maroonbg: rgba(56,4,4,0.94);
+  --white: #fff;
+  --nav-h: 54px;
+}
 
-    html { scroll-behavior: smooth; }
-    body { font-family: 'Poppins', sans-serif; background: var(--maroon); overflow-x: hidden; }
+html { scroll-behavior: smooth; }
+body { font-family: 'Poppins', sans-serif; background: var(--maroon); overflow-x: hidden; }
 
-    /* ══════════════ NAV ══════════════ */
-    nav {
-      position: fixed;
-      top: 0; left: 0; right: 0;
-      height: var(--nav-h);
-      background: var(--maroon);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      gap: clamp(20px, 5vw, 90px);
-      z-index: 1000;
-      box-shadow: 0 2px 20px rgba(0,0,0,0.5);
-    }
-    nav a {
-      color: var(--white);
-      text-decoration: none;
-      font-weight: 800;
-      font-style: italic;
-      font-size: clamp(12px, 1.5vw, 20px);
-      letter-spacing: 0.06em;
-      transition: opacity .2s;
-    }
-    nav a:hover { opacity: 0.6; }
+/* ══════════════ NAV ══════════════ */
+nav {
+  position: fixed;
+  top: 0; left: 0; right: 0;
+  height: var(--nav-h);
+  background: var(--maroon);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: clamp(10px, 3vw, 90px);
+  z-index: 1000;
+  box-shadow: 0 2px 20px rgba(0,0,0,0.5);
+  flex-wrap: wrap;
+  padding: 6px 12px;
+}
+nav a {
+  color: var(--white);
+  text-decoration: none;
+  font-weight: 800;
+  font-style: italic;
+  font-size: clamp(10px, 2.2vw, 20px);
+  letter-spacing: 0.06em;
+  transition: opacity .2s;
+  white-space: nowrap;
+}
+nav a:hover { opacity: 0.6; }
 
-    /* ══════════════ HOME ══════════════
-       Full-screen background photo (outdoor/mall photo = airbrush-image-extender)
-       with "HI, I'm ALEX" and "Portfolio" text overlaid
-    ════════════════════════════════════ */
-    #home {
-      position: relative;
-      width: 100%;
-      height: 100vh;
-      min-height: 500px;
-      overflow: hidden;
-    }
+/* ══════════════ HOME ══════════════ */
+#home {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  min-height: 500px;
+  overflow: hidden;
+}
 
-    /* The outdoor/background photo fills the entire section */
-    .home-bg {
-      position: absolute;
-      inset: 0;
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-      object-position: center center;
-    }
+.home-bg {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center center;
+}
 
-    /* Dark gradient overlay so text is readable */
-    .home-overlay {
-      position: absolute;
-      inset: 0;
-      background: linear-gradient(
-        135deg,
-        rgba(56,4,4,0.72) 0%,
-        rgba(56,4,4,0.35) 50%,
-        rgba(0,0,0,0.2) 100%
-      );
-    }
+.home-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    135deg,
+    rgba(56,4,4,0.72) 0%,
+    rgba(56,4,4,0.35) 50%,
+    rgba(0,0,0,0.2) 100%
+  );
+}
 
-    /* Text block positioned top-left like the Figma */
-    .home-text {
-      position: absolute;
-      top: clamp(70px, 12vh, 130px);
-      left: clamp(24px, 6vw, 90px);
-      z-index: 2;
-    }
-    .home-hi {
-      font-size: clamp(48px, 9vw, 130px);
-      font-weight: 900;
-      color: var(--white);
-      line-height: 1;
-      text-shadow: 2px 4px 24px rgba(0,0,0,0.6);
-      white-space: nowrap;
-    }
-    .home-hi .cursive {
-      font-family: 'Pinyon Script', cursive;
-      font-weight: 400;
-      font-size: 1.1em;
-    }
-    .home-portfolio {
-      font-family: 'DM Serif Display', serif;
-      font-style: italic;
-      font-size: clamp(52px, 10vw, 140px);
-      color: rgba(255,255,255,0.82);
-      line-height: 0.92;
-      text-shadow: 2px 4px 24px rgba(0,0,0,0.5);
-      margin-top: 4px;
-    }
+.home-text {
+  position: absolute;
+  top: clamp(70px, 12vh, 130px);
+  left: clamp(16px, 6vw, 90px);
+  right: clamp(16px, 6vw, 90px);
+  z-index: 2;
+}
+.home-hi {
+  font-size: clamp(36px, 9vw, 130px);
+  font-weight: 900;
+  color: var(--white);
+  line-height: 1;
+  text-shadow: 2px 4px 24px rgba(0,0,0,0.6);
+  white-space: nowrap;
+}
+.home-hi .cursive {
+  font-family: 'Pinyon Script', cursive;
+  font-weight: 400;
+  font-size: 1.1em;
+}
+.home-portfolio {
+  font-family: 'DM Serif Display', serif;
+  font-style: italic;
+  font-size: clamp(40px, 10vw, 140px);
+  color: rgba(255,255,255,0.82);
+  line-height: 0.92;
+  text-shadow: 2px 4px 24px rgba(0,0,0,0.5);
+  margin-top: 4px;
+}
 
-    /* ══════════════ INTRODUCTION ══════════════
-       Dark maroon bg. Photo on left (bottom-anchored, overflows top).
-       Text block on right. "INTRODUCTION" big label at the very bottom.
-    ════════════════════════════════════════════ */
-    #introduction {
-      position: relative;
-      width: 100%;
-      background: var(--maroonbg);
-      /* Enough height to fit photo + text + big label */
-      min-height: 100vh;
-      overflow: hidden;
-      display: flex;
-      flex-direction: column;
-    }
+/* ══════════════ SHARED SECTION STRUCTURE ══════════════ */
+/* All sections use flex column; content on top, big label on bottom */
+#introduction,
+#education,
+#hobbies,
+#contact {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
 
-    /* Top part: photo left + text right */
-    .intro-top {
-      flex: 1;
-      display: flex;
-      align-items: flex-end; /* photo sits at bottom of this area */
-      gap: 0;
-      padding: clamp(40px, 6vh, 80px) clamp(24px, 6vw, 80px) 0;
-      min-height: 0;
-    }
+/* ══════════════ INTRODUCTION ══════════════ */
+#introduction {
+  background: var(--maroonbg);
+  min-height: 100vh;
+}
 
-    /* The cutout photo of Alex in white shirt */
-    .intro-photo {
-      width: clamp(200px, 26vw, 380px);
-      object-fit: contain;
-      object-position: bottom;
-      flex-shrink: 0;
-      align-self: flex-end;
-      /* Slight upward shift so it overlaps the label below */
-      margin-bottom: -15px;
-      position: relative;
-      z-index: 2;
-      filter: drop-shadow(0 -4px 30px rgba(0,0,0,0.4));
-    }
+.intro-top {
+  flex: 1;
+  display: flex;
+  align-items: flex-end;
+  gap: 0;
+  padding: clamp(30px, 6vh, 80px) clamp(20px, 6vw, 80px) 0;
+}
 
-    /* Text content beside the photo */
-    .intro-body {
-      flex: 1;
-      min-width: 220px;
-      padding: clamp(20px, 4vw, 60px) clamp(20px, 3vw, 50px);
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-self: center;
-    }
-    .intro-body p {
-      font-size: clamp(15px, 1.8vw, 22px);
-      font-weight: 400;
-      color: rgba(255,255,255,0.92);
-      line-height: 1.85;
-    }
-    .intro-body p + p { margin-top: 20px; }
+.intro-photo {
+  width: clamp(160px, 26vw, 380px);
+  object-fit: contain;
+  object-position: bottom;
+  flex-shrink: 0;
+  align-self: flex-end;
+  margin-bottom: -8px;
+  position: relative;
+  z-index: 2;
+  filter: drop-shadow(0 -4px 30px rgba(0,0,0,0.4));
+}
 
-    /* Big "INTRODUCTION" label at the bottom */
-    .intro-label {
-      font-family: 'Anton SC', sans-serif;
-      font-size: 220px;
-      letter-spacing: 0.04em;
-      color: var(--white);
-      line-height: 1;
-      padding: 0 clamp(16px, 4vw, 60px);
-      padding-bottom: clamp(12px, 2vw, 28px);
-      position: relative;
-      z-index: 1;
-    }
+.intro-body {
+  flex: 1;
+  min-width: 180px;
+  padding: clamp(16px, 4vw, 60px) clamp(16px, 3vw, 50px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+}
+.intro-body p {
+  font-size: clamp(13px, 1.8vw, 22px);
+  font-weight: 400;
+  color: rgba(255,255,255,0.92);
+  line-height: 1.85;
+}
+.intro-body p + p { margin-top: 16px; }
 
-    /* ══════════════ EDUCATION ══════════════ */
-    #education {
-      position: relative;
-      background: var(--white);
-      min-height: 100vh;
-      overflow: hidden;
-      display: flex;
-      flex-direction: column;
-    }
+/* Big label — scales from ~60px on tiny phones to 220px on desktop */
+.intro-label {
+  font-family: 'Anton SC', sans-serif;
+  font-size: clamp(44px, 16vw, 220px);
+  letter-spacing: 0.04em;
+  color: var(--white);
+  line-height: 1;
+  padding: 0 clamp(12px, 4vw, 60px) clamp(10px, 2vw, 28px);
+  position: relative;
+  z-index: 1;
+  word-break: break-word;
+}
 
-    .edu-top {
-      flex: 1;
-      display: flex;
-      align-items: flex-end;
-      padding: clamp(40px, 6vh, 80px) clamp(24px, 6vw, 80px) 0;
-      gap: clamp(24px, 4vw, 60px);
-    }
+/* ══════════════ EDUCATION ══════════════ */
+#education {
+  background: var(--white);
+  min-height: 100vh;
+}
 
-    .edu-entries {
-      flex: 1;
-      min-width: 220px;
-      display: flex;
-      flex-direction: column;
-      gap: 20px;
-      padding-bottom: 40px;
-      align-self: center;
-    }
-    .edu-entry h3 {
-      font-size: clamp(13px, 1.4vw, 17px);
-      font-weight: 900;
-      color: var(--maroon);
-      text-transform: uppercase;
-      letter-spacing: 0.03em;
-      margin-bottom: 4px;
-    }
-    .edu-entry p {
-      font-size: clamp(12px, 1.3vw, 15px);
-      color: var(--maroon);
-      line-height: 1.7;
-    }
+.edu-top {
+  flex: 1;
+  display: flex;
+  align-items: flex-end;
+  padding: clamp(30px, 6vh, 80px) clamp(20px, 6vw, 80px) 0;
+  gap: clamp(16px, 4vw, 60px);
+}
 
-    /* Photo on the right, anchored to bottom */
-    .edu-photo {
-      width: clamp(160px, 20vw, 280px);
-      object-fit: contain;
-      object-position: bottom;
-      flex-shrink: 0;
-      align-self: flex-end;
-      margin-bottom: -40px;
-      position: relative;
-      z-index: 2;
-      filter: drop-shadow(0 0 20px rgba(56,4,4,0.15));
-    }
+.edu-entries {
+  flex: 1;
+  min-width: 180px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  padding-bottom: 30px;
+  align-self: center;
+}
+.edu-entry h3 {
+  font-size: clamp(11px, 1.4vw, 17px);
+  font-weight: 900;
+  color: var(--maroon);
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  margin-bottom: 4px;
+}
+.edu-entry p {
+  font-size: clamp(11px, 1.3vw, 15px);
+  color: var(--maroon);
+  line-height: 1.7;
+}
 
-    .edu-label {
-      font-family: 'Anton SC', sans-serif;
-      font-size: 290px;
-      letter-spacing: 0.04em;
-      color: var(--maroon);
-      line-height: 1;
-      padding: 0 clamp(16px, 4vw, 60px) clamp(12px, 2vw, 28px);
-      position: relative;
-      z-index: 1;
-    }
+.edu-photo {
+  width: clamp(120px, 20vw, 280px);
+  object-fit: contain;
+  object-position: bottom;
+  flex-shrink: 0;
+  align-self: flex-end;
+  margin-bottom: -20px;
+  position: relative;
+  z-index: 2;
+  filter: drop-shadow(0 0 20px rgba(56,4,4,0.15));
+}
 
-    /* ══════════════ HOBBIES ══════════════ */
-    #hobbies {
-      position: relative;
-      background: var(--maroonbg);
-      min-height: 100vh;
-      overflow: hidden;
-      display: flex;
-      flex-direction: column;
-    }
+.edu-label {
+  font-family: 'Anton SC', sans-serif;
+  font-size: clamp(34px, 14vw, 290px);
+  letter-spacing: 0.04em;
+  color: var(--maroon);
+  line-height: 1;
+  padding: 0 clamp(12px, 4vw, 60px) clamp(10px, 2vw, 28px);
+  position: relative;
+  z-index: 1;
+  word-break: break-word;
+}
 
-    .hobbies-top {
-      flex: 1;
-      display: flex;
-      align-items: flex-end;
-      padding: clamp(40px, 6vh, 80px) clamp(24px, 6vw, 80px) 0;
-      gap: clamp(24px, 4vw, 60px);
-    }
+/* ══════════════ HOBBIES ══════════════ */
+#hobbies {
+  background: var(--maroonbg);
+  min-height: 100vh;
+}
 
-    .hobbies-list-wrap {
-      flex: 1;
-      min-width: 220px;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      padding-bottom: 40px;
-      align-self: center;
-    }
-    .hobbies-list {
-      list-style: none;
-      display: flex;
-      flex-direction: column;
-      gap: 10px;
-    }
-    .hobbies-list li {
-      font-size: clamp(20px, 2.8vw, 36px);
-      font-weight: 800;
-      color: var(--white);
-      display: flex;
-      align-items: center;
-      gap: 14px;
-    }
-    .hobbies-list li::before {
-      content: '▸';
-      color: rgba(255,255,255,0.35);
-      font-size: 0.7em;
-    }
+.hobbies-top {
+  flex: 1;
+  display: flex;
+  align-items: flex-end;
+  padding: clamp(30px, 6vh, 80px) clamp(20px, 6vw, 80px) 0;
+  gap: clamp(16px, 4vw, 60px);
+}
 
-    .hobbies-photo {
-      width: clamp(180px, 22vw, 320px);
-      object-fit: contain;
-      object-position: bottom;
-      flex-shrink: 0;
-      align-self: flex-end;
-      margin-bottom: -212px;
-      position: relative;
-      z-index: 2;
-      filter: drop-shadow(0 0 28px rgba(0,0,0,0.5));
-    }
+.hobbies-list-wrap {
+  flex: 1;
+  min-width: 180px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-bottom: 30px;
+  align-self: center;
+}
+.hobbies-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.hobbies-list li {
+  font-size: clamp(16px, 2.8vw, 36px);
+  font-weight: 800;
+  color: var(--white);
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.hobbies-list li::before {
+  content: '▸';
+  color: rgba(255,255,255,0.35);
+  font-size: 0.7em;
+  flex-shrink: 0;
+}
 
-    .hobbies-label {
-      font-family: 'Anton SC', sans-serif;
-      font-size: 300px;
-      margin-left: auto;
-      letter-spacing: 0.04em;
-      color: var(--white);
-      line-height: 1;
-      padding: 0 clamp(16px, 4vw, 60px) clamp(12px, 2vw, 28px);
-      position: relative;
-      z-index: 1;
-    }
+.hobbies-photo {
+  width: clamp(140px, 22vw, 320px);
+  object-fit: contain;
+  object-position: bottom;
+  flex-shrink: 0;
+  align-self: flex-end;
+  /* Removed hard -212px — now safe for mobile */
+  margin-bottom: -20px;
+  position: relative;
+  z-index: 2;
+  filter: drop-shadow(0 0 28px rgba(0,0,0,0.5));
+}
 
-    /* ══════════════ CONTACT ══════════════ */
-    #contact {
-      position: relative;
-      background: var(--white);
-      min-height: 100vh;
-      overflow: hidden;
-      display: flex;
-      flex-direction: column;
-    }
+.hobbies-label {
+  font-family: 'Anton SC', sans-serif;
+  font-size: clamp(44px, 17vw, 300px);
+  margin-left: auto;
+  letter-spacing: 0.04em;
+  color: var(--white);
+  line-height: 1;
+  padding: 0 clamp(12px, 4vw, 60px) clamp(10px, 2vw, 28px);
+  position: relative;
+  z-index: 1;
+  word-break: break-word;
+  text-align: right;
+}
 
-    .contact-top {
-      flex: 1;
-      display: flex;
-      align-items: flex-end;
-      padding: clamp(40px, 6vh, 80px) clamp(24px, 6vw, 80px) 0;
-      gap: clamp(24px, 4vw, 60px);
-    }
+/* ══════════════ CONTACT ══════════════ */
+#contact {
+  background: var(--white);
+  min-height: 100vh;
+}
 
-    /* Contact photo on the left */
-    .contact-photo {
-      width: clamp(180px, 22vw, 320px);
-      object-fit: contain;
-      object-position: bottom;
-      flex-shrink: 0;
-      align-self: flex-end;
-      margin-bottom: -40px;
-      position: relative;
-      z-index: 2;
-      filter: drop-shadow(0 0 20px rgba(0,0,0,0.2));
-    }
+.contact-top {
+  flex: 1;
+  display: flex;
+  align-items: flex-end;
+  padding: clamp(30px, 6vh, 80px) clamp(20px, 6vw, 80px) 0;
+  gap: clamp(16px, 4vw, 60px);
+}
 
-    .contact-info {
-      flex: 1;
-      min-width: 220px;
-      align-self: center;
-      padding-bottom: 40px;
-    }
-    .contact-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-      gap: 24px 40px;
-    }
-    .contact-item h4 {
-      font-size: clamp(12px, 1.3vw, 16px);
-      font-weight: 900;
-      color: var(--maroon);
-      text-transform: uppercase;
-      letter-spacing: 0.06em;
-      margin-bottom: 5px;
-    }
-    .contact-item p {
-      font-size: clamp(13px, 1.4vw, 16px);
-      color: var(--maroon);
-      font-weight: 400;
-    }
+.contact-photo {
+  width: clamp(140px, 22vw, 320px);
+  object-fit: contain;
+  object-position: bottom;
+  flex-shrink: 0;
+  align-self: flex-end;
+  margin-bottom: -20px;
+  position: relative;
+  z-index: 2;
+  filter: drop-shadow(0 0 20px rgba(0,0,0,0.2));
+}
 
-    .contact-label {
-      font-family: 'Anton SC', sans-serif;
-      font-size: 230px;
-      letter-spacing: 0.04em;
-      color: var(--maroon);
-      line-height: 1;
-      padding: 0 clamp(16px, 4vw, 60px) clamp(12px, 2vw, 28px);
-      position: relative;
-      z-index: 1;
-      margin-top: auto;
-    }
+.contact-info {
+  flex: 1;
+  min-width: 180px;
+  align-self: center;
+  padding-bottom: 30px;
+}
+.contact-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 20px 32px;
+}
+.contact-item h4 {
+  font-size: clamp(11px, 1.3vw, 16px);
+  font-weight: 900;
+  color: var(--maroon);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  margin-bottom: 5px;
+}
+.contact-item p,
+.contact-item a {
+  font-size: clamp(11px, 1.4vw, 16px);
+  color: var(--maroon);
+  font-weight: 400;
+  word-break: break-all;
+  text-decoration: none;
+}
+.contact-item a:hover { text-decoration: underline; }
 
-    /* ══════════════ RESPONSIVE ══════════════ */
-    @media (max-width: 600px) {
-      .intro-top, .edu-top, .hobbies-top, .contact-top {
-        flex-direction: column;
-        align-items: center;
-        padding-bottom: 0;
-      }
-      .intro-photo, .edu-photo, .hobbies-photo, .contact-photo {
-        width: clamp(160px, 55vw, 260px);
-        margin-bottom: -20px;
-        align-self: center;
-      }
-      .intro-body, .edu-entries, .hobbies-list-wrap, .contact-info {
-        padding: 20px 20px 0;
-        text-align: center;
-      }
-      .hobbies-list { align-items: flex-start; width: 100%; }
-      .contact-grid { text-align: left; }
-    }
+.contact-label {
+  font-family: 'Anton SC', sans-serif;
+  font-size: clamp(30px, 13vw, 230px);
+  letter-spacing: 0.04em;
+  color: var(--maroon);
+  line-height: 1;
+  padding: 0 clamp(12px, 4vw, 60px) clamp(10px, 2vw, 28px);
+  position: relative;
+  z-index: 1;
+  margin-top: auto;
+  word-break: break-word;
+}
+
+/* ══════════════ MOBILE — up to 600px ══════════════ */
+@media (max-width: 600px) {
+  /* Nav wraps into two rows on very small screens */
+  nav {
+    height: auto;
+    min-height: var(--nav-h);
+    padding: 8px 12px;
+    gap: 8px 14px;
+  }
+
+  /* Sections: stack photo ABOVE content on mobile */
+  .intro-top,
+  .edu-top,
+  .hobbies-top,
+  .contact-top {
+    flex-direction: column;
+    align-items: center;
+    padding: 70px 20px 0;
+    gap: 0;
+  }
+
+  /* Photos: centered, reasonable size, no negative overflow */
+  .intro-photo,
+  .edu-photo,
+  .hobbies-photo,
+  .contact-photo {
+    width: clamp(140px, 55vw, 220px);
+    margin-bottom: 0;
+    align-self: center;
+    order: -1; /* photo always on top */
+  }
+
+  /* Text blocks: full width, centered */
+  .intro-body,
+  .edu-entries,
+  .hobbies-list-wrap,
+  .contact-info {
+    width: 100%;
+    padding: 20px 20px 16px;
+    text-align: center;
+    align-self: unset;
+  }
+
+  .intro-body p,
+  .edu-entry p,
+  .edu-entry h3 {
+    font-size: 14px;
+  }
+
+  /* Hobbies list stays left-aligned for readability */
+  .hobbies-list {
+    align-items: flex-start;
+    width: 100%;
+    text-align: left;
+  }
+  .hobbies-label {
+    text-align: right;
+    margin-left: 0;
+  }
+
+  /* Contact grid single column */
+  .contact-grid {
+    grid-template-columns: 1fr 1fr;
+    text-align: left;
+  }
+
+  /* Big labels: scale down gracefully on phone */
+  .intro-label   { font-size: clamp(38px, 14vw, 80px); }
+  .edu-label     { font-size: clamp(34px, 13vw, 72px); }
+  .hobbies-label { font-size: clamp(42px, 15vw, 86px); }
+  .contact-label { font-size: clamp(28px, 12vw, 68px); }
+}
+
+/* ══════════════ TABLET — 601px–900px ══════════════ */
+@media (min-width: 601px) and (max-width: 900px) {
+  .intro-label   { font-size: clamp(60px, 11vw, 140px); }
+  .edu-label     { font-size: clamp(55px, 10vw, 130px); }
+  .hobbies-label { font-size: clamp(65px, 12vw, 150px); }
+  .contact-label { font-size: clamp(50px, 10vw, 130px); }
+
+  .intro-photo, .edu-photo, .hobbies-photo, .contact-photo {
+    width: clamp(130px, 22vw, 220px);
+  }
+}
